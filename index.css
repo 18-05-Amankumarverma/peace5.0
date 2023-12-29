@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:arial;
+}
+header{
+    padding:10px 20px;
+    background-color:#49a29f;
+    
+}
+header img{
+    height:60px;
+    width:100px;
+    transition:all .8s;
+}
+header ul{
+    list-style:none;
+    float:right;
+    padding:17px 0px;
+    margin:0px;
+    transition:all .8s;
+
+}
+header ul li{
+    float:left;
+    margin-left:35px;
+}
+header ul li a{
+    text-decoration:none;
+    font-weight:600;
+    font-size:18px;
+}
+header ul li a:hover{
+    text-decoration:none;
+}
+header ul li a:link,header ul li a:visited{
+
+    color:black;
+}
+#btn0{
+    background-color:orange;
+    color:white;
+    padding:10px 0px;
+    width:130px;
+    text-align:center;
+    font-weight:600;
+    font-size:18px;
+    float:right;
+    margin-top:8px;
+    transition:all .8s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#banner img{
+    width:100%;
+    height:80%;
+    position:relative;
+}
+#overlay{
+    position:absolute;
+    top:20%;
+    left:50%;
+    text-align:center;
+    transform:translate(-50%,-20%);
+
+}
+#banner h1{
+    font-size:65px;
+    font-weight:600;
+    color:white;
+    transition:all .8s;
+}
+#banner p{
+    padding:20px 0px;
+    color:white;
+    font-size:18px;
+    
+}
+#btn1{
+    font-size:25px;
+    color:white;
+    background-color:;
+    width:30%;
+    padding:15px 0px;
+    position: absolute;
+    left: 50%;
+    font-weight:600;
+    background-color:orange;
+    transform: translate(-50%,0px);
+    transition:all .8s;
+}
+#about{
+    padding:20px 0px;
+    text-align:center;
+    transition:all .8s;
+}
+#about h5{
+    padding:40px 0px;
+    padding-top:0px;
+    font-size:18px;
+    font-weight:600;
+    transition:all .8s;
+}
+#about h5:hover{
+    text-decoration:underline;
+}
+#about h1{
+    font-size:50px;
+    font-weight:600;
+    transition:all .8s;
+}
+#about p{
+    font-size:18px;
+    font-weight:500;
+    text-align:justify;
+    line-height:30px;
+    padding:30px 0px;
+    transition:all .8s;
+}
+#flex-box{
+    padding:100px 10px;
+    background-color:#edf0f6;
+    transition:all .8s;
+}
+.seperate{
+    padding-top:20px !important;
+}
+#flex-box h1{
+    padding:10px 0px;
+    font-size:50px;
+    transition:all .8s;
+}
+#flex-box img{
+    height:50%;
+    width:100%;
+}
+#flex-box p{
+    text-align:justify;
+    padding:10px 14px;
+    font-size:500;
+    transition:all .8s;
+}
+#flex-box h5{
+    padding:10px 14px;
+    font-weight:700;
+    transition:all .8s;
+}
+#click{
+    display:none;
+}
+.hamberger{
+    display:none;
+}

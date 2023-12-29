@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size:100px;
+            text-align:center;
+            display:block;
+            background-color:rgb(75, 75, 224);
+        }
+
+        #message{
+            display:none;
+        }
+        @media screen and (max-width:500px){
+            h1{
+                background-color:orange;
+            }
+        }
+        @media screen and (orientation:landscape){
+            h1{
+                display:none;
+            }
+            #message{
+                display:block;
+            }
+        }
+        @media(prefers-color-scheme:dark){
+            h1{
+                color:green;
+            }
+        } @media(prefers-color-scheme:light){
+            h1{
+                color:red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Testing types of medias in HTML and CSS
+        </h1>
+        <div id="message">
+            Change your device orientation
+        </div>
+    </div>
+</body>
+</html>
